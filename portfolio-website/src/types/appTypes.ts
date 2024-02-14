@@ -13,9 +13,19 @@ interface HeaderType {
     menuItems: ItemType[]
 }
 
+interface SkillType {
+    icon: string
+    name: string
+}
+
+interface SocialLinkType {
+    url: string
+    icon: string
+}
+
 interface SvgSize {
     width: string
     height: string
 }
 
-export type { ProviderType, ItemType, HeaderType, SvgSize }
+export type { ProviderType, ItemType, HeaderType, SvgSize, SkillType, SocialLinkType }
