@@ -10,7 +10,7 @@ export const Header = () => {
     const { isMenuOpen, setIsMenuOpen } = useHeader()
 
     return (
-        <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen}>
+        <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen} className="w-screen">
             <NavbarBrand>
                 <AppLogo width="50px" height="50px" />
                 <h1 className="font-bold">Portfolio</h1>
