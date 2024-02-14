@@ -1,10 +1,10 @@
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu } from "@nextui-org/react"
-import { AlignJustify } from "lucide-react"
 import { NavLinks } from "@components/navLinks/NavLinks"
 import { ResumeButton } from "@components/resumeButton/ResumeButton"
 import { MenuItems } from "@components/menuItems/MenuItems"
 import { AppLogo } from "@assets/AppLogo"
 import { useHeader } from "@hooks/useHeader"
+import { Icon } from "@iconify/react/dist/iconify.js"
 
 export const Header = () => {
     const { isMenuOpen, setIsMenuOpen } = useHeader()
@@ -27,7 +27,7 @@ export const Header = () => {
 
                 <NavbarMenuToggle 
                     className="md:hidden"
-                    icon={<AlignJustify />}
+                    icon={<Icon icon="material-symbols:menu" width="26px" />}
                 />
             </NavbarContent>
             
