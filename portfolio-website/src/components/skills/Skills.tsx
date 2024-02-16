@@ -47,7 +47,7 @@ export const Skills = () => {
     ]
 
     return (
-        <div className="max-w-7xl" id="skills">
+        <div id="skills">
             <h1 className="text-center mb-10 text-4xl">
                 My 
                 <span className="font-bold ml-2">
