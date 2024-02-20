@@ -28,6 +28,7 @@ interface SocialLinkType {
 interface SvgSize {
     width: string
     height: string
+    color: string
 }
 
 interface ExperienceType {
@@ -38,4 +39,12 @@ interface ExperienceType {
     description: string
 }
 
-export type { ProviderType, ItemType, HeaderType, SvgSize, SkillType, SocialLinkType, ExperienceType }
+interface ProjectType {
+    image: ReactElement 
+    title: string
+    description: string
+    index: number
+    url: string
+}
+
+export type { ProviderType, ItemType, HeaderType, SvgSize, SkillType, SocialLinkType, ExperienceType, ProjectType }

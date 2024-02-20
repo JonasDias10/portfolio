@@ -1,13 +1,13 @@
 import { SvgSize } from "types/appTypes"
 
-export const AppLogo = ({ width, height }: SvgSize) => {
+export const AppLogo = ({ width, height, color }: SvgSize) => {
     return (
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
             width={width} 
             height={height} 
             viewBox="0 0 260 190" 
             preserveAspectRatio="xMidYMid meet">
-            <g transform="translate(0.000000,261.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+            <g transform="translate(0.000000,261.000000) scale(0.100000,-0.100000)" fill={color} stroke="none">
                 <path d="M1295 2525 l-159 -83 199 -130 c262 -170 278 -183 290 -216 8 -23 6
                 -30 -12 -44 -28 -22 -45 -68 -38 -103 17 -79 118 -107 176 -50 37 37 40 94 7
                 136 -17 22 -21 39 -19 79 3 64 8 59 -211 201 -93 60 -168 112 -168 115 0 11
