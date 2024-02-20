@@ -2,6 +2,9 @@ import { Header } from "@components/header/Header"
 import { Hero } from "@components/hero/Hero"
 import { Skills } from "@components/skills/Skills"
 import { Experiences } from "@components/experiences/Experiences"
+import { Footer } from "@components/footer/Footer"
+import { About } from "@components/about/About"
+import { Projects } from "@components/projects/Projects"
 
 export const Home = () => {
     return (
@@ -10,6 +13,9 @@ export const Home = () => {
             <Hero />
             <Skills />
             <Experiences />
+            <About />
+            <Projects />
+            <Footer />
         </div>
     )
 }
