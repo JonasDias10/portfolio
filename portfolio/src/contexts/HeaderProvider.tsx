@@ -8,8 +8,7 @@ export const CreateHeaderProvider = ({children}: ProviderType) => {
     const menuItems: ItemType[] = [
         {name: "About Me", href: "about"},
         {name: "Skills", href: "skills"},
-        {name: "Projects", href: "projects"},
-        {name: "Contact Me", href: "contact"},
+        {name: "Projects", href: "projects"}
     ]
 
     const headerContextValue: HeaderType = {
