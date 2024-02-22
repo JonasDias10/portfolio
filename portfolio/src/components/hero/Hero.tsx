@@ -33,7 +33,7 @@ export const Hero = () => {
                         </p>
                     </div>
                     <p className="text-sm text-justify">
-                        I'm Jonas Dias Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+                        I'm Jonas Dias. Determination and consistency in studies have shaped my journey as a developer. Proficient in Java, Spring Boot, and React, I am currently pursuing the 6th semester of Systems Analysis and Development at IFBA. Enthusiastic about learning and continuously growing, I'm ready to tackle challenges and contribute with quality and efficiency to development projects.
                     </p>
                 </div>
                 <div className="flex gap-2">
