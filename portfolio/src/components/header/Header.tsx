@@ -5,8 +5,11 @@ import { MenuItems } from "@components/menuItems/MenuItems"
 import { AppLogo } from "@assets/AppLogo"
 import { useHeader } from "@hooks/useHeader"
 import { Icon } from "@iconify/react/dist/iconify.js"
+import { SwitchLanguage } from "@components/switchLanguage/SwitchLanguage"
+import { useState } from "react"
 
 export const Header = () => {
+    const [ isSelected, setIsSelected ] = useState(false)
     const { isMenuOpen, setIsMenuOpen } = useHeader()
 
     return (
@@ -18,6 +21,13 @@ export const Header = () => {
 
             <NavbarContent className="hidden md:flex gap-6 text-black font-semibold" justify="center">
                 <NavLinks />
+
+                <NavbarItem>
+                    <SwitchLanguage 
+                        isSelected={isSelected}
+                        setIsSelected={setIsSelected}
+                    />
+                </NavbarItem>
             </NavbarContent>
 
             <NavbarContent justify="end">
@@ -33,6 +43,12 @@ export const Header = () => {
             
             <NavbarMenu className="bg-white">
                 <MenuItems />
+                <NavbarItem>
+                    <SwitchLanguage 
+                        isSelected={isSelected}
+                        setIsSelected={setIsSelected}
+                    />
+                </NavbarItem>
                 <ResumeButton />
             </NavbarMenu>
         </Navbar>

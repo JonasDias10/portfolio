@@ -1,8 +1,8 @@
 import i18next from "i18next"
 import { initReactI18next } from "react-i18next"
 
-import translationPortuguese from "../public/locales/pt/translation.json"
-import translationEnglish from "../public/locales/en/translation.json"
+import translationPortuguese from "locales/pt/translation.json"
+import translationEnglish from "locales/en/translation.json"
 
 const resources = {
     'en': {
@@ -17,7 +17,7 @@ i18next
 .use(initReactI18next)
 .init({
     resources,
-    lng: 'en',
+    lng: 'pt-BR',
     interpolation: {
         escapeValue: false
     }
