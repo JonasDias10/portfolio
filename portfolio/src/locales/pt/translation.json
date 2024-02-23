@@ -1,0 +1,37 @@
+{
+    "header": {
+        "about": "Sobre Mim",
+        "projects": "Projetos",
+        "skills": "Habilidades"
+    },
+    "hero": {
+        "title": {
+            "hello": "Olá, eu sou",
+            "name": "Jonas Dias",
+            "job": "Desenvolvedor de Software",
+            "from": "Do",
+            "country": "Brasil"
+        },
+        "about": "Eu sou Jonas Dias, um desenvolvedor determinado e consistente, especializado em Java, Spring Boot e React. Estou no 6º semestre do curso de Análise e Desenvolvimento de Sistemas no IFBA. Sou entusiasta do aprendizado contínuo e estou preparado para enfrentar desafios e contribuir eficientemente no desenvolvimento de projetos."
+    },
+    "experience": {
+        "stringhini": {
+            "title": "Data Quality na Stringhini",
+            "begin": "Set 2022",
+            "end": "Atual",
+            "description": "Como Data Quality, minhas responsabilidades incluem registrar, identificar e categorizar produtos dentro do sistema da empresa. Além disso, estou comprometido em garantir a integridade e precisão das informações."
+        }
+    },
+    "titles": {
+        "my1": "Meus",
+        "my2": "Minhas",
+        "me": "Mim",
+        "experiences": "Experiências",
+        "projects": "Projetos",
+        "skills": "Habilidades",
+        "about": "Sobre"
+    },
+    "buttons": {
+        "resume": "Currículo"
+    }
+}
