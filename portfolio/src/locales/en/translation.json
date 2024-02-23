@@ -1,0 +1,37 @@
+{
+    "header": {
+        "about": "About Me",
+        "projects": "Projects",
+        "skills": "Skills"
+    },
+    "hero": {
+        "title": {
+            "hello": "Hello I'm",
+            "name": "Jonas Dias",
+            "job": "Software Developer",  
+            "from": "From",
+            "country": "Brazil"
+        },
+        "about": "I'm Jonas Dias. Determination and consistency in studies have shaped my journey as a developer. Proficient in Java, Spring Boot, and React, I am currently pursuing the 6th semester of Systems Analysis and Development at IFBA. Enthusiastic about learning and continuously growing, I'm ready to tackle challenges and contribute with quality and efficiency to development projects."
+    },
+    "experience": {
+        "stringhini": {
+            "title": "Data Quality at Stringhini",
+            "begin": "Set 2022",
+            "end": "Present",
+            "description": "As the Data Quality, my responsibilities include recording, identifying, and categorizing products within the company's system. Additionally, I am committed to ensuring the integrity and accuracy of information."
+        }
+    },
+    "titles": {
+        "my1": "My",
+        "my2": "My",
+        "me": "Me",
+        "experiences": "Experiences",
+        "projects": "Projects",
+        "skills": "Skills",
+        "about": "About"
+    },
+    "buttons": {
+        "resume": "Resume"
+    }
+}
