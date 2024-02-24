@@ -1,7 +1,9 @@
 import { Skill } from "@components/skill/Skill"
+import { useTranslation } from "react-i18next"
 import { SkillType } from "types/appTypes"
 
 export const Skills = () => {
+    const { t } = useTranslation()
 
     const skills: SkillType[] = [
         {
@@ -47,11 +49,11 @@ export const Skills = () => {
     ]
 
     return (
-        <div id="skills">
-            <h1 className="text-center mb-10 text-4xl">
-                My 
+        <section id="skills">
+            <h1 className="text-center mb-10 text-3xl">
+                {t("titles.my2")} 
                 <span className="font-bold ml-2">
-                    Skills
+                    {t("titles.skills")}
                 </span>
             </h1>
             <div className="grid grid-cols-2 gap-2 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:gap-6">
@@ -63,6 +65,6 @@ export const Skills = () => {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     )
 }

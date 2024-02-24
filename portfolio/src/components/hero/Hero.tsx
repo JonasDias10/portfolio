@@ -1,8 +1,10 @@
 import { SocialLink } from "@components/socialLink/SocialLink"
 import HeroImage from "@assets/HeroImage.svg"
 import { SocialLinkType } from "types/appTypes"
+import { useTranslation } from "react-i18next"
 
 export const Hero = () => {
+    const { t } = useTranslation()
 
     const socialLinks: SocialLinkType[] = [
         {
@@ -20,20 +22,20 @@ export const Hero = () => {
     ]
 
     return (
-        <div className="flex gap-6 flex-col-reverse items-center lg:flex-row lg:items-stretch">
+        <section className="flex gap-6 flex-col-reverse items-center lg:flex-row lg:items-stretch">
             <div className="flex gap-4 flex-col justify-between p-4 max-w-lg">
                 <div>
-                    <div className="mb-4 text-4xl">
+                    <div className="mb-4 text-3xl">
                         <p className="mb-2">
-                            Hello I'm <span className="font-bold">Jonas Dias</span>
+                            {t("hero.title.hello")} <span className="font-bold">{t("hero.title.name")}</span>
                         </p>
-                        <p className="mb-2">Software Developer</p>
+                        <p className="mb-2">{t("hero.title.job")}</p>
                         <p>
-                            From <span className="font-bold">Brazil</span>.
+                            {t("hero.title.from")} <span className="font-bold">{t("hero.title.country")}</span>.
                         </p>
                     </div>
                     <p className="text-sm text-justify">
-                        I'm Jonas Dias. Determination and consistency in studies have shaped my journey as a developer. Proficient in Java, Spring Boot, and React, I am currently pursuing the 6th semester of Systems Analysis and Development at IFBA. Enthusiastic about learning and continuously growing, I'm ready to tackle challenges and contribute with quality and efficiency to development projects.
+                        {t("hero.about")}
                     </p>
                 </div>
                 <div className="flex gap-2">
@@ -51,6 +53,6 @@ export const Hero = () => {
             <div className="flex p-4 h-96">
                 <img src={HeroImage} alt="Hero image." width="540px" className="self-end" />
             </div>
-        </div>
+        </section>
     )
 }
