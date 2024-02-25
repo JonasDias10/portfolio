@@ -22,6 +22,11 @@
             "description": "As the Data Quality, my responsibilities include recording, identifying, and categorizing products within the company's system. Additionally, I am committed to ensuring the integrity and accuracy of information."
         }
     },
+    "about": {
+        "description1": "Hello! I'm Jonas, a technology enthusiast and developer specializing in Java, Spring Boot, and React. With extensive experience in web application development and a strong commitment to excellence, I'm constantly seeking challenges that drive my professional growth.",
+        "description2": "To me, technology goes beyond codes and algorithms. It's the art of finding innovative solutions to complex problems. I'm always exploring new creative ways to approach challenges and pursue exceptional results.",
+        "description3": "I'm excited to collaborate with talented teams on challenging projects, where my experience and passion for continuous learning can add value."
+    },
     "titles": {
         "my1": "My",
         "my2": "My",
