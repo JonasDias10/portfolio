@@ -40,7 +40,7 @@ interface ExperienceType {
 }
 
 interface ProjectType {
-    image: ReactElement 
+    image: string 
     title: string
     description: string
     index: number
