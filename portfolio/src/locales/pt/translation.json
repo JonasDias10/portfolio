@@ -27,6 +27,24 @@
         "description2": "Para mim, a tecnologia vai além de códigos e algoritmos. É a arte de encontrar soluções inovadoras para problemas complexos. Estou sempre explorando novas maneiras criativas de abordar desafios e buscar resultados excepcionais.",
         "description3": "Estou animado para colaborar com equipes talentosas em projetos desafiadores, onde minha experiência e paixão pela aprendizagem contínua possam agregar valor."
     },
+    "projects": {
+        "note_cards": {
+            "title": "Note Cards",
+            "description": "O projeto Note Cards exemplifica minhas capacidades técnicas, integrando o backend desenvolvido em Java e Spring Boot, e o frontend com React e TypeScript. Esse projeto não apenas demonstra minha habilidade na integração backend/frontend, mas também ressalta minha capacidade de fornecer soluções de software coesas."
+        },
+        "tech_store": {
+            "title": "Tech Store",
+            "description": "O aplicativo Tech Store integra Java e Spring Boot para backend, Angular para frontend e PostgreSQL como banco de dados. O backend segue estritamente os princípios da Arquitetura Limpa, garantindo uma base de código modular e de fácil manutenção. Docker é usado para conteinerizar todo o projeto para facilitar a implantação."
+        },
+        "web_chat": {
+            "title": "Web Chat",
+            "description": ""
+        },
+        "link_aggregator": {
+            "title": "Link Aggregator",
+            "description": ""
+        }
+    },
     "titles": {
         "my1": "Meus",
         "my2": "Minhas",
