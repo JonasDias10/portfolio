@@ -38,11 +38,11 @@
         },
         "web_chat": {
             "title": "Web Chat",
-            "description": ""
+            "description": "A WebSocket chat application using Node.js, allowing users to connect and chat in real-time."
         },
         "link_aggregator": {
             "title": "Link Aggregator",
-            "description": ""
+            "description": "A webpage created to centralize my links using HTML, CSS, and JS, perfect for sharing a variety of links in a simple and personalized way."
         }
     },
     "titles": {
