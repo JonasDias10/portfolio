@@ -1,5 +1,5 @@
-import AboutImage from "@assets/AboutImage.svg"
 import { useTranslation } from "react-i18next"
+import aboutImage from "@assets/about-image.svg"
 
 export const About = () => {
     const { t } = useTranslation()
@@ -7,7 +7,7 @@ export const About = () => {
     return (
         <section className="flex flex-wrap gap-10 justify-center w-full px-4 lg:justify-between lg:px-0" id="about">
             <div className="max-w-sm">
-                <img src={AboutImage} alt="About image." className="w-full" />
+                <img src={aboutImage} alt="About image." className="w-full" />
             </div>
             <div className="max-w-lg">
                 <h1 className="text-4xl mb-6">

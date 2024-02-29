@@ -1,7 +1,7 @@
 import { SocialLink } from "@components/socialLink/SocialLink"
-import HeroImage from "@assets/HeroImage.svg"
 import { SocialLinkType } from "types/appTypes"
 import { useTranslation } from "react-i18next"
+import heroImage from "@assets/hero-image.svg"
 
 export const Hero = () => {
     const { t } = useTranslation()
@@ -51,7 +51,7 @@ export const Hero = () => {
                 </div>
             </div>
             <div className="flex p-4 h-96">
-                <img src={HeroImage} alt="Hero image." width="540px" className="self-end" />
+                <img src={heroImage} alt="Hero image." width="540px" className="self-end" />
             </div>
         </section>
     )

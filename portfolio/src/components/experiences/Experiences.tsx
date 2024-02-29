@@ -1,7 +1,7 @@
 import { Experience } from "@components/experience/Experience"
 import { ExperienceType } from "types/appTypes"
-import StringhiniLogo from "@assets/StringhiniLogo.jpg"
 import { useTranslation } from "react-i18next"
+import stringhiniLogo from "@assets/stringhini-logo.jpg"
 
 export const Experiences = () => {
     const { t } = useTranslation()
@@ -12,7 +12,7 @@ export const Experiences = () => {
             begin: t("experience.stringhini.begin"),
             end: t("experience.stringhini.end"),
             description: t("experience.stringhini.description"),
-            icon: <img src={StringhiniLogo} alt="Stringhini logo." width="24px" />
+            icon: <img src={stringhiniLogo} alt="Stringhini logo." width="24px" />
         },
     ]
 
