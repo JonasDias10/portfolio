@@ -6,8 +6,8 @@ export const Project = (project: ProjectType) => {
 
     return (
         <div className={`flex flex-wrap gap-10 items-center justify-center max-w-4xl ${projectSide}`}>
-            <div className="rounded-md max-w-md">
-                <img src={project.image} alt={project.title} className="w-full max-h-96 rounded-md"/>
+            <div className="max-w-md">
+                <img src={project.image} alt={project.title} className="w-96 h-96 rounded-md"/>
             </div>
             <div className="text-white max-w-80">
                 <h1 className="font-bold text-xl">
