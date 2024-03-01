@@ -2,6 +2,12 @@
 
 Welcome to my portfolio, a showcase of my technical skills, projects, and career highlights. Developed with the combination of React, TypeScript, Next UI, and Tailwind CSS.
 
+---
+
+![Portfolio GIF](./media/portfolio.gif)
+
+---
+
 ## 🚀 Features
 
 - **Next UI & Tailwind CSS:** Combines the stylistic flexibility of Tailwind CSS with the rich, ready-to-use components of Next UI for a modern, responsive design.
@@ -46,6 +52,12 @@ Navigate to [http://localhost:3000](http://localhost:3000) to view the applicati
 - **[TypeScript](https://www.typescriptlang.org/)** - Adds static type definitions to ensure type safety and to enhance the development experience.
 - **[Next UI](https://nextui.org/)** - For using beautiful, modern UI components that are fully responsive and customizable.
 - **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for creating custom designs without having to leave your HTML.
+
+---
+
+## 🚀 Credits 
+
+ - Design by **[Jhanvi Shah](https://www.figma.com/community/file/1318529372146880502)** - All rights assigned.
 
 ---
 
