@@ -8,6 +8,11 @@ Welcome to my portfolio, a showcase of my technical skills, projects, and career
 
 ---
 
+## 🖥️ Deploy
+
+- [![Portfolio](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://jonas-dias-portfolio.netlify.app/)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/69a9e67e-21d1-489d-9997-0d4d71edd1b8/deploy-status)](https://app.netlify.com/sites/jonas-dias-portfolio/deploys)
+
 ## 🚀 Features
 
 - **Next UI & Tailwind CSS:** Combines the stylistic flexibility of Tailwind CSS with the rich, ready-to-use components of Next UI for a modern, responsive design.
