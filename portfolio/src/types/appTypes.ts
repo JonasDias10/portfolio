@@ -1,4 +1,4 @@
-import { Dispatch, ReactElement, SetStateAction } from "react"
+import { Dispatch, ReactElement, SetStateAction } from "react";
 
 interface ProviderType {
     children: React.ReactNode
@@ -52,4 +52,4 @@ interface SwitchLanguageType {
     setIsSelected: Dispatch<SetStateAction<boolean>>
 }
 
-export type { ProviderType, ItemType, HeaderType, SvgSize, SkillType, SocialLinkType, ExperienceType, ProjectType, SwitchLanguageType }
+export type { ProviderType, ItemType, HeaderType, SvgSize, SkillType, SocialLinkType, ExperienceType, ProjectType, SwitchLanguageType };
