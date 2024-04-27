@@ -12,7 +12,7 @@ export const Project = (project: ProjectType) => {
         <img
           src={project.image}
           alt={project.title}
-          className="w-96 h-96 rounded-md"
+          className="rounded-md object-contain"
         />
       </div>
       <div className="text-white max-w-80">

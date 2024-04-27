@@ -30,11 +30,11 @@
     "projects": {
         "note_cards": {
             "title": "Note Cards",
-            "description": "The Note Cards project exemplifies my technical skills by integrating the backend developed in Java and Spring Boot, and the frontend with React and TypeScript. This project not only demonstrates my ability in backend/frontend integration but also highlights my capability to provide cohesive software solutions."
+            "description": "I utilized the development of Note Cards to enhance my technical skills, integrating the backend developed with Java and Spring Boot, and the frontend with React and TypeScript. It was both challenging and enjoyable to acquire new knowledge throughout the process."
         },
         "tech_store": {
             "title": "Tech Store",
-            "description": "The Tech Store app integrates Java and Spring Boot for the backend, Angular for the frontend, and PostgreSQL as the database. The backend strictly adheres to Clean Architecture principles, ensuring a modular and easily maintainable codebase. Docker is used to containerize the entire project for easy deployment."
+            "description": "Developing the project was extremely challenging, especially because I chose to learn Angular during the process. Additionally, I sought to apply the principles of clean architecture cohesively to the backend, developed with Java and Spring Boot. Furthermore, I used Docker to containerize the entire project, which added complexity but also significantly facilitated the deployment process."
         },
         "web_chat": {
             "title": "Web Chat",
@@ -43,6 +43,14 @@
         "link_aggregator": {
             "title": "Link Aggregator",
             "description": "A webpage created to centralize my links using HTML, CSS, and JS, perfect for sharing a variety of links in a simple and personalized way."
+        },
+        "unit_tests": {
+            "title": "Unit Tests",
+            "description": "This project was used for me to learn how to implement unit tests using JUnit and Mockito in a Spring Boot environment."
+        },
+        "progress_track": {
+            "title": "Progress Track",
+            "description": "This project, led by Micael Mota in collaboration with his YouTube followers, aims to develop a goal monitoring tool. In it, I contributed by improving the login interface and implemented the goal editing functionality."
         }
     },
     "titles": {
