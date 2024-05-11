@@ -12,20 +12,20 @@
             "from": "From",
             "country": "Brazil"
         },
-        "about": "I'm Jonas Dias. Determination and consistency in studies have shaped my journey as a developer. Proficient in Java, Spring Boot, and React, I am currently pursuing the 6th semester of Systems Analysis and Development at IFBA. Enthusiastic about learning and continuously growing, I'm ready to tackle challenges and contribute with quality and efficiency to development projects."
+        "about": "Passionate about games and technology. It was this passion that led me to develop shaders for Minecraft Bedrock Edition in 2018, resulting in a total of 4300 downloads across the two released versions. This same passion also drove me to start college for Systems Analysis and Development in the second semester of 2021, where I am now in the 6th semester."
     },
     "experience": {
         "stringhini": {
             "title": "Data Quality at Stringhini",
             "begin": "Set 2022",
             "end": "Present",
-            "description": "As the Data Quality, my responsibilities include recording, identifying, and categorizing products within the company's system. Additionally, I am committed to ensuring the integrity and accuracy of information."
+            "description": "As a Data Quality professional, I'm dedicated to ensuring the accuracy and integrity of data, performing product registration, identification, and tagging, always striving for learning and contributing to the team's success."
         }
     },
     "about": {
-        "description1": "Hello! I'm Jonas, a technology enthusiast and developer specializing in Java, Spring Boot, and React. With extensive experience in web application development and a strong commitment to excellence, I'm constantly seeking challenges that drive my professional growth.",
-        "description2": "To me, technology goes beyond codes and algorithms. It's the art of finding innovative solutions to complex problems. I'm always exploring new creative ways to approach challenges and pursue exceptional results.",
-        "description3": "I'm excited to collaborate with talented teams on challenging projects, where my experience and passion for continuous learning can add value."
+        "description1": "Hey there! I'm Jonas, a guy who loves technology and games. In 2018, I dove headfirst into the world of shaders, developing some for the Minecraft Bedrock Edition. Surprisingly, these shaders racked up a total of 4300 downloads in just two released versions.",
+        "description2": "That same passion led me to start college for Analysis and Systems Development in the second semester of 2021, and now I'm in the 6th semester. With a solid background in web application development and a serious commitment to excellence, I'm always seeking challenges that help me grow professionally.",
+        "description3": "For me, technology goes far beyond codes and algorithms. It's the art of solving complex problems innovatively. I'm always on the lookout for creative ways to tackle challenges and achieve incredible results. I'm super excited to collaborate with talented teams on challenging projects, where my experience and my thirst for continuous learning can make a difference."
     },
     "projects": {
         "note_cards": {
