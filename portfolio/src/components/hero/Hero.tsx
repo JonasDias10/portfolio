@@ -8,7 +8,7 @@ export const Hero = () => {
 
   const socialLinks: SocialLinkType[] = [
     {
-      url: "https://www.linkedin.com/in/jonasdias18/",
+      url: "https://www.linkedin.com/in/jonasdias10/",
       icon: "ri:linkedin-fill",
     },
     {
