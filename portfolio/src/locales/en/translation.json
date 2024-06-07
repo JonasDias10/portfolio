@@ -12,7 +12,7 @@
             "from": "From",
             "country": "Brazil"
         },
-        "about": "Passionate about games and technology. It was this passion that led me to develop shaders for Minecraft Bedrock Edition in 2018, resulting in a total of 4300 downloads across the two released versions. This same passion also drove me to start college for Systems Analysis and Development in the second semester of 2021, where I am now in the 6th semester."
+        "about": "Passionate about games and technology, I developed shaders for Minecraft Bedrock Edition in 2018, achieving a total of 4,300 downloads across the two released versions. This same passion led me to start a degree in Systems Analysis and Development in the second semester of 2021, where I am now in the 6th semester."
     },
     "experience": {
         "stringhini": {
@@ -23,9 +23,9 @@
         }
     },
     "about": {
-        "description1": "Hey there! I'm Jonas, a guy who loves technology and games. In 2018, I dove headfirst into the world of shaders, developing some for the Minecraft Bedrock Edition. Surprisingly, these shaders racked up a total of 4300 downloads in just two released versions.",
-        "description2": "That same passion led me to start college for Analysis and Systems Development in the second semester of 2021, and now I'm in the 6th semester. With a solid background in web application development and a serious commitment to excellence, I'm always seeking challenges that help me grow professionally.",
-        "description3": "For me, technology goes far beyond codes and algorithms. It's the art of solving complex problems innovatively. I'm always on the lookout for creative ways to tackle challenges and achieve incredible results. I'm super excited to collaborate with talented teams on challenging projects, where my experience and my thirst for continuous learning can make a difference."
+        "description1": "Hey there! I'm Jonas, a technology and gaming enthusiast. In 2018, I ventured into developing shaders for Minecraft Bedrock Edition, achieving 4,300 downloads across the two released versions.",
+        "description2": "Due to this passion, I enrolled in a Systems Analysis and Development program in the second semester of 2021, aiming to enhance my knowledge and continue growing in what I love to do, which is programming. Now, I am in the 6th semester and have accumulated a wealth of experience, ranging from Algorithms and Data Structures to Web Development.",
+        "description3": "As technology changes and evolves every day, I keep learning and seeking knowledge constantly, because, to me, technology is the art of solving complex problems creatively."
     },
     "projects": {
         "note_cards": {

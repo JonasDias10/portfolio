@@ -12,7 +12,7 @@
             "from": "Do",
             "country": "Brasil"
         },
-        "about": "Apaixonado por games e tecnologia. Foi essa paixão que me levou a desenvolver shaders para o Minecraft Bedrock Edition em 2018, resultando em um total de 4300 downloads nas duas versões lançadas. Essa mesma paixão também me impulsionou a iniciar a faculdade de Análise e Desenvolvimento de Sistemas no segundo semestre de 2021, onde agora estou no 6º semestre."
+        "about": "Apaixonado por games e tecnologia, desenvolvi shaders para Minecraft Bedrock Edition em 2018, obtendo um total de 4300 downloads nas duas versões lançadas. Essa mesma paixão me levou a iniciar a faculdade de Análise e Desenvolvimento de Sistemas no segundo semestre de 2021, onde agora estou no 6º semestre."
     },
     "experience": {
         "stringhini": {
@@ -23,9 +23,9 @@
         }
     },
     "about": {
-        "description1": "E aí! Sou o Jonas, um cara que ama tecnologia e games. Em 2018, entrei de cabeça no universo dos shaders, desenvolvendo alguns para o Minecraft Bedrock Edition. Surpreendentemente, esses shaders tiveram um total de 4300 downloads em apenas duas versões lançadas.",
-        "description2": "Essa mesma paixão me levou a começar a faculdade de Análise e Desenvolvimento de Sistemas no segundo semestre de 2021, e agora estou no 6º semestre. Com uma boa bagagem em desenvolvimento de aplicações web e um compromisso sério com a excelência, estou sempre buscando desafios que me façam crescer profissionalmente.",
-        "description3": "Pra mim, tecnologia vai muito além de códigos e algoritmos. É a arte de resolver problemas complexos de forma inovadora. Tô sempre de olho em jeitos criativos de encarar os desafios e conseguir resultados incríveis. Tô super empolgado pra colaborar com equipes talentosas em projetos desafiadores, onde minha experiência e minha sede de aprendizado contínuo possam fazer a diferença."
+        "description1": "E aí! Sou o Jonas, um amante de tecnologia e games. Em 2018, me aventurei no desenvolvimento de shaders para o Minecraft Bedrock Edition, conseguindo 4300 downloads nas duas versões lançadas.",
+        "description2": "Por conta dessa paixão, entrei na faculdade de Análise e Desenvolvimento de Sistemas no segundo semestre de 2021, buscando aprimorar meus conhecimentos para seguir crescendo naquilo que amo fazer, que é programar. Agora, estou no 6º semestre e carrego comigo uma vasta bagagem, que vai desde Algoritmos e Estrutura de dados até Desenvolvimento Web.",
+        "description3": "Como a tecnologia muda e evolui a cada dia, sigo aprendendo e buscando conhecimento constantemente, pois, para mim, tecnologia é a arte de resolver problemas complexos de forma criativa."
     },
     "projects": {
         "note_cards": {
