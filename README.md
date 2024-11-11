@@ -4,10 +4,6 @@ Welcome to my portfolio, a showcase of my technical skills, projects, and career
 
 ---
 
-![Portfolio GIF](./media/portfolio.gif)
-
----
-
 ## 🖥️ Deploy
 
 - [![Portfolio](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://jonas-dias-portfolio.netlify.app/)
@@ -60,9 +56,9 @@ Navigate to [http://localhost:3000](http://localhost:3000) to view the applicati
 
 ---
 
-## 🚀 Credits 
+## 🚀 Credits
 
- - Design by **[Jhanvi Shah](https://www.figma.com/community/file/1318529372146880502)** - All rights assigned.
+- Design by **[Jhanvi Shah](https://www.figma.com/community/file/1318529372146880502)** - All rights assigned.
 
 ---
 

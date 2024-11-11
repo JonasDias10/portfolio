@@ -5,13 +5,10 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+
     "baseUrl": "./src",
     "paths": {
-      "@components/*": ["./components/*"],
-      "@pages/*": ["./pages/*"],
-      "@assets/*": ["./assets/*"],
-      "@contexts/*": ["./contexts/*"],
-      "@hooks/*": ["./hooks/*"]
+      "@/*": ["*"]
     },
 
     /* Bundler mode */
@@ -28,6 +25,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "public/assets"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

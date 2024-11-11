@@ -1,10 +1,10 @@
-import { AppProviders } from "@contexts/AppProviders";
-import { Home } from "@pages/home/Home";
+import { HeaderProvider } from './contexts/HeaderProvider';
+import { Home } from './pages/home';
 
 export const App = () => {
   return (
-    <AppProviders>
+    <HeaderProvider>
       <Home />
-    </AppProviders>
+    </HeaderProvider>
   );
 };

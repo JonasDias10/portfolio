@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-      font-family: "Sora", sans-serif;
-      @apply scroll-smooth;
-      @apply overflow-x-hidden;
-    }
+  html {
+    font-family: 'Sora', sans-serif;
+    @apply scroll-smooth;
+  }
 }

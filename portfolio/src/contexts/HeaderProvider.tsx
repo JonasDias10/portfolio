@@ -1,16 +1,17 @@
-import { useState } from "react";
-import { HeaderContext } from "./HeaderContext";
-import { HeaderType, ItemType, ProviderType } from "types/appTypes";
-import { useTranslation } from "react-i18next";
+import { HeaderType, ItemType, ProviderType } from '@/types/global';
+import { useState } from 'react';
 
-export const CreateHeaderProvider = ({ children }: ProviderType) => {
+import { useTranslation } from 'react-i18next';
+import { HeaderContext } from './HeaderContext';
+
+export const HeaderProvider = ({ children }: ProviderType) => {
   const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems: ItemType[] = [
-    { name: t("header.about"), href: "about" },
-    { name: t("header.skills"), href: "skills" },
-    { name: t("header.projects"), href: "projects" },
+    { name: t('header.about'), href: 'about' },
+    { name: t('header.skills'), href: 'skills' },
+    { name: t('header.projects'), href: 'projects' },
   ];
 
   const headerContextValue: HeaderType = {
@@ -19,9 +20,5 @@ export const CreateHeaderProvider = ({ children }: ProviderType) => {
     menuItems: menuItems,
   };
 
-  return (
-    <HeaderContext.Provider value={headerContextValue}>
-      {children}
-    </HeaderContext.Provider>
-  );
+  return <HeaderContext.Provider value={headerContextValue}>{children}</HeaderContext.Provider>;
 };
