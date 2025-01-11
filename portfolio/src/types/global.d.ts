@@ -6,13 +6,17 @@ interface ProviderType {
 
 interface ItemType {
   name: string;
-  href: string;
+  ref: React.RefObject<HTMLElement>;
+  link?: string;
 }
 
 interface HeaderType {
   isMenuOpen: boolean;
   setIsMenuOpen: (boolean: boolean) => void;
   menuItems: ItemType[];
+  aboutRef: React.RefObject<HTMLElement>;
+  skillsRef: React.RefObject<HTMLElement>;
+  projectsRef: React.RefObject<HTMLElement>;
 }
 
 interface SkillType {

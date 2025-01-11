@@ -1,10 +1,12 @@
+import { useHeader } from '@/hooks/useHeader';
 import { useTranslation } from 'react-i18next';
 
 export const About = () => {
   const { t } = useTranslation();
+  const { aboutRef } = useHeader();
 
   return (
-    <section className="flex flex-wrap gap-10 justify-center w-full px-4 lg:justify-between lg:px-0" id="about">
+    <section ref={aboutRef} className="flex flex-wrap gap-10 justify-center w-full px-4 lg:justify-between lg:px-0">
       <div className="max-w-sm">
         <img src="/assets/about-image.svg" alt="About image." className="w-full" />
       </div>

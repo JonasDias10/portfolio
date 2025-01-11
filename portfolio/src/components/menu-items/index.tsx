@@ -1,18 +1,23 @@
 import { useHeader } from '@/hooks/useHeader';
-import { Link, NavbarMenuItem } from '@nextui-org/react';
+import { NavbarMenuItem } from '@nextui-org/react';
 
 export const MenuItems = () => {
   const { setIsMenuOpen, menuItems } = useHeader();
 
-  return menuItems.map((item, index) => (
-    <NavbarMenuItem key={`${item.href}-${index}`}>
-      <Link
-        className="w-full px-2 text-right text-black hover:text-gray-700"
-        href={`#${item.href}`}
-        onClick={() => setIsMenuOpen(false)}
-      >
-        {item.name}
-      </Link>
+  const scrollToSection = (sectionRef: React.RefObject<HTMLElement>) => {
+    if (!sectionRef.current) return;
+
+    setIsMenuOpen(false);
+
+    sectionRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  };
+
+  return menuItems.map(({ name, ref }, index) => (
+    <NavbarMenuItem key={index} onClick={() => scrollToSection(ref)} className="cursor-pointer ml-2">
+      {name}
     </NavbarMenuItem>
   ));
 };

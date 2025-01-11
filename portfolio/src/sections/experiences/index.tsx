@@ -15,6 +15,15 @@ export const Experiences = () => {
       }) as string[],
       icon: '/assets/stringhini-logo.jpg',
     },
+    {
+      title: t('experience.tudeDiniz.title'),
+      begin: t('experience.tudeDiniz.begin'),
+      end: t('experience.tudeDiniz.end'),
+      description: t('experience.tudeDiniz.description', {
+        returnObjects: true,
+      }) as string[],
+      icon: '/assets/unknown.png',
+    },
   ];
 
   return (

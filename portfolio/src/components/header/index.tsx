@@ -1,5 +1,5 @@
 import { useHeader } from '@/hooks/useHeader';
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu } from '@nextui-org/react';
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, Link } from '@nextui-org/react';
 import { useState } from 'react';
 import { AppLogo } from '../logo';
 import { NavLinks } from '../nav-links';
@@ -28,6 +28,10 @@ export const Header = () => {
 
       <NavbarContent justify="end" className="hidden md:flex gap-6 text-black font-semibold">
         <NavLinks />
+
+        <Link target="_blank" rel="noopener noreferrer" href="/" className="text-black">
+          Blog
+        </Link>
 
         <NavbarItem>
           <SwitchLanguage isSelected={isSelected} setIsSelected={setIsSelected} />

@@ -7,13 +7,16 @@ type Hero = {
   about: string;
 };
 
+type ExperienceType = {
+  title: string;
+  begin: string;
+  end: string;
+  description: string[];
+};
+
 type Experience = {
-  stringhini: {
-    title: string;
-    begin: string;
-    end: string;
-    description: string[];
-  };
+  stringhini: ExperienceType;
+  tudeDiniz: ExperienceType;
 };
 
 type Projects = {

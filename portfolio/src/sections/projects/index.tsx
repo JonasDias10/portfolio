@@ -1,9 +1,11 @@
 import { ProjectType } from '@/types/global';
 import { useTranslation } from 'react-i18next';
 import { Project } from '@/components/project';
+import { useHeader } from '@/hooks/useHeader';
 
 export const Projects = () => {
   const { t } = useTranslation();
+  const { projectsRef } = useHeader();
 
   const projects: ProjectType[] = [
     {
@@ -45,7 +47,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="bg-black w-full" id="projects">
+    <section ref={projectsRef} className="bg-black w-full">
       <h1 className="text-center text-white mb-10 text-3xl my-12">
         {t('titles.my1')}
         <span className="font-bold ml-2">{t('titles.projects')}</span>

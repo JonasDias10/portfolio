@@ -26,6 +26,12 @@ export const en: I18nData = {
         'I worked on initial-stage scopes, where it was crucial to frequently consult with management to ensure high accuracy.',
       ],
     },
+    tudeDiniz: {
+      title: 'Dev Frontend at Tude Diniz Tecnologia',
+      begin: 'Set 2024',
+      end: 'Present',
+      description: [],
+    },
   },
   about: {
     description1:
