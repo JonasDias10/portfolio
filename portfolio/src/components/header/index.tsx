@@ -1,11 +1,11 @@
 import { useHeader } from '@/hooks/useHeader';
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu } from '@nextui-org/react';
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle } from '@nextui-org/react';
 import { useState } from 'react';
+import { Iconify } from '../iconify';
 import { AppLogo } from '../logo';
+import { MenuItems } from '../menu-items';
 import { NavLinks } from '../nav-links';
 import { SwitchLanguage } from '../switch-language';
-import { MenuItems } from '../menu-items';
-import { Iconify } from '../iconify';
 
 export const Header = () => {
   const [isSelected, setIsSelected] = useState(false);

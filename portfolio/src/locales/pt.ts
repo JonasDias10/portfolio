@@ -26,6 +26,12 @@ export const pt: I18nData = {
         'Trabalhei em escopos em estágio inicial, sendo extremamente importante tirar dúvidas constantemente com a gestão para garantir uma excelente assertividade.',
       ],
     },
+    tudeDiniz: {
+      title: 'Dev Front-end na Tude Diniz Tecnologia',
+      begin: 'Set 2024',
+      end: 'Atual',
+      description: [],
+    },
   },
   about: {
     description1:
