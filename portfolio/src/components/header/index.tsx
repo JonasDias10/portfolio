@@ -1,11 +1,11 @@
 import { useHeader } from '@/hooks/useHeader';
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, Link } from '@nextui-org/react';
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle } from '@nextui-org/react';
 import { useState } from 'react';
+import { Iconify } from '../iconify';
 import { AppLogo } from '../logo';
+import { MenuItems } from '../menu-items';
 import { NavLinks } from '../nav-links';
 import { SwitchLanguage } from '../switch-language';
-import { MenuItems } from '../menu-items';
-import { Iconify } from '../iconify';
 
 export const Header = () => {
   const [isSelected, setIsSelected] = useState(false);
@@ -28,10 +28,6 @@ export const Header = () => {
 
       <NavbarContent justify="end" className="hidden md:flex gap-6 text-black font-semibold">
         <NavLinks />
-
-        <Link target="_blank" rel="noopener noreferrer" href="/" className="text-black">
-          Blog
-        </Link>
 
         <NavbarItem>
           <SwitchLanguage isSelected={isSelected} setIsSelected={setIsSelected} />

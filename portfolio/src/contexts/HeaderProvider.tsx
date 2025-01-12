@@ -1,6 +1,5 @@
 import { HeaderType, ItemType, ProviderType } from '@/types/global';
 import { useRef, useState } from 'react';
-
 import { useTranslation } from 'react-i18next';
 import { HeaderContext } from './HeaderContext';
 
@@ -19,9 +18,9 @@ export const HeaderProvider = ({ children }: ProviderType) => {
   ];
 
   const headerContextValue: HeaderType = {
-    isMenuOpen: isMenuOpen,
-    setIsMenuOpen: setIsMenuOpen,
-    menuItems: menuItems,
+    isMenuOpen,
+    setIsMenuOpen,
+    menuItems,
     aboutRef,
     skillsRef,
     projectsRef,
