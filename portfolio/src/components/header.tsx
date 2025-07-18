@@ -1,5 +1,4 @@
 import { useHeader } from "@/hooks/useHeader"
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle } from "@heroui/react"
 import { Iconify } from "./iconify"
 import { AppLogo } from "./logo"
 import { MenuItems } from "./menu-items"
@@ -9,41 +8,46 @@ import { SwitchLanguage } from "./switch-language"
 export const Header = () => {
   const { isMenuOpen, setIsMenuOpen } = useHeader()
 
+  const toggleMenu = () => {
+    setIsMenuOpen((prev) => !prev)
+  }
+
   return (
-    <Navbar
-      onMenuOpenChange={setIsMenuOpen}
-      isMenuOpen={isMenuOpen}
-      classNames={{
-        wrapper: "p-4 md:p-0",
-      }}
-      maxWidth="full"
-    >
-      <NavbarBrand>
-        <a href="/" className="flex items-center gap-1">
-          <AppLogo width="50px" height="50px" color="#000000" />
-          <h1 className="font-bold">Portfolio</h1>
-        </a>
-      </NavbarBrand>
+    <header className="w-full bg-white sticky top-0">
+      <div className="max-w-full mx-auto px-4 md:px-0">
+        <div className="flex justify-between items-center py-2">
+          <div className="flex items-center">
+            <a href="/" className="flex items-center gap-1">
+              <AppLogo width="50px" height="50px" color="#000000" />
+              <h1 className="font-bold text-black">Portfolio</h1>
+            </a>
+          </div>
 
-      <NavbarContent justify="end" className="hidden md:flex gap-6 text-black font-semibold">
-        <NavLinks />
+          <nav className="hidden md:flex items-center gap-4 text-black font-semibold">
+            <NavLinks />
 
-        <NavbarItem>
-          <SwitchLanguage />
-        </NavbarItem>
-      </NavbarContent>
+            <div className="ml-4">
+              <SwitchLanguage />
+            </div>
+          </nav>
 
-      <NavbarContent justify="end" className="md:hidden">
-        <NavbarMenuToggle icon={<Iconify icon="material-symbols:menu" width="26px" />} />
-      </NavbarContent>
+          <button
+            className="md:hidden p-2 rounded-md text-black hover:bg-gray-100 focus:outline-none"
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+          >
+            <Iconify icon="material-symbols:menu" width="26px" />
+          </button>
+        </div>
 
-      <NavbarMenu className="bg-white">
-        <MenuItems />
+        {isMenuOpen && (
+          <div className="md:hidden bg-white py-2 space-y-2">
+            <MenuItems />
 
-        <NavbarItem>
-          <SwitchLanguage />
-        </NavbarItem>
-      </NavbarMenu>
-    </Navbar>
+            <SwitchLanguage mobile />
+          </div>
+        )}
+      </div>
+    </header>
   )
 }

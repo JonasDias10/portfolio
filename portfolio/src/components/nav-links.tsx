@@ -1,4 +1,3 @@
-import { NavbarItem } from "@heroui/react"
 import { useHeader } from "@/hooks/useHeader"
 
 export const NavLinks = () => {
@@ -13,9 +12,17 @@ export const NavLinks = () => {
     })
   }
 
-  return menuItems.map(({ name, ref }, index) => (
-    <NavbarItem key={index} onClick={() => scrollToSection(ref)} className="cursor-pointer">
-      {name}
-    </NavbarItem>
-  ))
+  return (
+    <>
+      {menuItems.map(({ name, ref }, index) => (
+        <a
+          key={index}
+          onClick={() => scrollToSection(ref)}
+          className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-100 cursor-pointer transition-colors"
+        >
+          {name}
+        </a>
+      ))}
+    </>
+  )
 }

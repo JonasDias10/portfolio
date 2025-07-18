@@ -1,5 +1,4 @@
 import { useHeader } from "@/hooks/useHeader"
-import { NavbarMenuItem } from "@heroui/react"
 
 export const MenuItems = () => {
   const { setIsMenuOpen, menuItems } = useHeader()
@@ -15,9 +14,17 @@ export const MenuItems = () => {
     })
   }
 
-  return menuItems.map(({ name, ref }, index) => (
-    <NavbarMenuItem key={index} onClick={() => scrollToSection(ref)} className="cursor-pointer ml-2">
-      {name}
-    </NavbarMenuItem>
-  ))
+  return (
+    <>
+      {menuItems.map(({ name, ref }, index) => (
+        <a
+          key={index}
+          onClick={() => scrollToSection(ref)}
+          className="block p-2 text-sm font-medium hover:bg-gray-100 cursor-pointer transition-colors rounded-md"
+        >
+          {name}
+        </a>
+      ))}
+    </>
+  )
 }

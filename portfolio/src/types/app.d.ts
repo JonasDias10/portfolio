@@ -1,4 +1,4 @@
-import { Dispatch, ReactElement, SetStateAction } from "react"
+import React, { Dispatch, ReactElement, SetStateAction } from "react"
 
 type ProviderType = {
   children: React.ReactNode
@@ -12,7 +12,7 @@ type MenuItemType = {
 
 type HeaderType = {
   isMenuOpen: boolean
-  setIsMenuOpen: (boolean: boolean) => void
+  setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>
   menuItems: MenuItemType[]
   aboutRef: React.RefObject<HTMLElement>
   skillsRef: React.RefObject<HTMLElement>

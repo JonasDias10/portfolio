@@ -1,5 +1,3 @@
-import { heroui } from "@heroui/react"
-
 /** @type {import('tailwindcss').Config} */
 export const content = [
   "./index.html",
@@ -10,8 +8,4 @@ export const theme = {
   extend: {},
 }
 export const darkMode = "class"
-export const plugins = [
-  heroui({
-    addCommonColors: true,
-  }),
-]
+export const plugins = []
