@@ -1,4 +1,4 @@
-import { HeaderType } from '@/types/global';
-import { createContext } from 'react';
+import { HeaderType } from "@/types/app"
+import { createContext } from "react"
 
-export const HeaderContext = createContext<HeaderType | null>(null);
+export const HeaderContext = createContext<HeaderType | null>(null)

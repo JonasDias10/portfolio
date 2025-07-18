@@ -1,4 +1,4 @@
-import { SvgSize } from '@/types/global';
+import { SvgSize } from "@/types/app"
 
 export const AppLogo = ({ width, height, color }: SvgSize) => {
   return (
@@ -68,5 +68,5 @@ export const AppLogo = ({ width, height, color }: SvgSize) => {
         />
       </g>
     </svg>
-  );
-};
+  )
+}

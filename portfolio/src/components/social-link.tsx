@@ -1,9 +1,9 @@
-import { SocialLinkType } from '@/types/global';
-import { Iconify } from '../iconify';
+import { SocialLinkType } from "@/types/app"
+import { Iconify } from "./iconify"
 
 type Props = {
-  socialLink: SocialLinkType;
-};
+  socialLink: SocialLinkType
+}
 
 export const SocialLink = ({ socialLink }: Props) => {
   return (
@@ -15,5 +15,5 @@ export const SocialLink = ({ socialLink }: Props) => {
     >
       <Iconify icon={socialLink.icon} width="28px" />
     </a>
-  );
-};
+  )
+}

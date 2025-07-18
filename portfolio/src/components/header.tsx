@@ -1,23 +1,22 @@
-import { useHeader } from '@/hooks/useHeader';
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle } from '@nextui-org/react';
-import { useState } from 'react';
-import { Iconify } from '../iconify';
-import { AppLogo } from '../logo';
-import { MenuItems } from '../menu-items';
-import { NavLinks } from '../nav-links';
-import { SwitchLanguage } from '../switch-language';
+import { useHeader } from "@/hooks/useHeader"
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle } from "@heroui/react"
+import { Iconify } from "./iconify"
+import { AppLogo } from "./logo"
+import { MenuItems } from "./menu-items"
+import { NavLinks } from "./nav-links"
+import { SwitchLanguage } from "./switch-language"
 
 export const Header = () => {
-  const [isSelected, setIsSelected] = useState(false);
-  const { isMenuOpen, setIsMenuOpen } = useHeader();
+  const { isMenuOpen, setIsMenuOpen } = useHeader()
 
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       isMenuOpen={isMenuOpen}
       classNames={{
-        wrapper: 'p-4 md:p-0',
+        wrapper: "p-4 md:p-0",
       }}
+      maxWidth="full"
     >
       <NavbarBrand>
         <a href="/" className="flex items-center gap-1">
@@ -30,7 +29,7 @@ export const Header = () => {
         <NavLinks />
 
         <NavbarItem>
-          <SwitchLanguage isSelected={isSelected} setIsSelected={setIsSelected} />
+          <SwitchLanguage />
         </NavbarItem>
       </NavbarContent>
 
@@ -42,9 +41,9 @@ export const Header = () => {
         <MenuItems />
 
         <NavbarItem>
-          <SwitchLanguage isSelected={isSelected} setIsSelected={setIsSelected} />
+          <SwitchLanguage />
         </NavbarItem>
       </NavbarMenu>
     </Navbar>
-  );
-};
+  )
+}

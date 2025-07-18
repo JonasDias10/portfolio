@@ -1,0 +1,102 @@
+{
+  "header": {
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "hero": {
+    "title": {
+      "hello": "Hello, I'm",
+      "name": "Jonas Dias",
+      "position": "Software Developer"
+    },
+    "about": "Full Stack Developer with experience in web projects, mainly working with React, Node.js, TypeScript, GraphQL, and PostgreSQL. I contribute to the development of the Alta Aprovação platform, helping build essential features on both the frontend and backend, while also assisting in onboarding new team members. I also worked in the Data Quality area at Stringhini Varejo Inteligente, consistently exceeding goals and ensuring high-quality deliverables."
+  },
+  "experience": {
+    "stringhini": {
+      "title": "Data Quality at Stringhini",
+      "begin": "Sep 2022",
+      "end": "Sep 2024",
+      "description": [
+        "Stood out by achieving 100% accuracy in weekly testing during several weeks.",
+        "Surpassed the performance point target in more than 43 weeks, contributing directly to the team's and client’s consistent goal achievement.",
+        "Worked on early-stage project scopes, maintaining constant communication with management to ensure highly accurate deliverables."
+      ]
+    },
+    "tudeDinizInternship": {
+      "title": "Full Stack Developer Intern at Tude Diniz Tecnologia",
+      "begin": "Sep 2024",
+      "end": "Jun 2025",
+      "description": [
+        "Led the development of approximately 80% of the frontend for the Alta Aprovação project using React, Material UI, and GraphQL.",
+        "Developed the frontend of the strategic 'Verticalized Notice' feature and contributed to the backend with Node.js, TypeScript, TypeORM, GraphQL, and PostgreSQL.",
+        "Structured and implemented the admin module for the Alta Aprovação HUB, including management of users, notices, subjects, and topics — enabling scalable and fully digital operations."
+      ]
+    },
+    "tudeDinizFulltime": {
+      "title": "Full Stack Developer at Tude Diniz Tecnologia",
+      "begin": "Jun 2025",
+      "end": "Present",
+      "description": [
+        "Migrated the frontend from Create React App to Vite, reducing build and development startup times by approximately 60%.",
+        "Implemented end-to-end payment integration with Stripe, ensuring secure transactions and expanding the product’s monetization capabilities.",
+        "Developed the saved jobs module with automatic email alerts using React, Supabase, and Node.js."
+      ]
+    }
+  },
+  "projects": {
+    "reactTemplate": {
+      "title": "React Template",
+      "description": [
+        "I structured a personal template using Vite, React, TypeScript, and Material UI, focusing on productivity and organization.",
+        "The project serves as a starting point for new applications, following a clear architecture and responsive components."
+      ]
+    },
+    "reactTestingSetup": {
+      "title": "React Testing Environment",
+      "description": [
+        "I set up a complete testing environment for React projects using Vitest, React Testing Library, and Cypress.",
+        "The setup covers unit, integration, and E2E tests, making it a reusable base for new projects."
+      ]
+    },
+    "nodeGraphqlApi": {
+      "title": "GraphQL API with Node.js",
+      "description": [
+        "I developed a simple API using Node.js, TypeScript, TypeORM, and GraphQL to practice CRUD operations with PostgreSQL.",
+        "The structure reinforces best practices such as soft delete, validations, and entity relationships."
+      ]
+    },
+    "javaSpringTemplate": {
+      "title": "Java Spring Backend Template",
+      "description": [
+        "I created a backend skeleton using Spring Boot, JWT, Spring Security, and Flyway, aimed at learning and future real-world use.",
+        "The project includes OpenAPI documentation (Springdoc), mappings with MapStruct, and an organization focused on maintainability."
+      ]
+    },
+    "solidPrinciples": {
+      "title": "SOLID Principles in Practice",
+      "description": [
+        "I developed a didactic repository to study and demonstrate the SOLID principles in Java.",
+        "The project presents correct and incorrect examples, serving as study and review material."
+      ]
+    },
+    "springBootTests": {
+      "title": "Unit Testing with Spring Boot",
+      "description": [
+        "I practiced unit testing with JUnit 5 and Mockito in a simulated Java backend project.",
+        "I focused on covering services with mocked repositories, enhancing code reliability and clarity."
+      ]
+    }
+  },
+  "titles": {
+    "me": "Me",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "skills": "Skills",
+    "about": "About"
+  },
+  "footer": {
+    "developerBy": "Developed by",
+    "designBy": "Design by"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "header": {
+    "about": "Sobre Mim",
+    "projects": "Projetos",
+    "skills": "Habilidades"
+  },
+  "hero": {
+    "title": {
+      "hello": "Olá, eu sou",
+      "name": "Jonas Dias",
+      "position": "Desenvolvedor de Software"
+    },
+    "about": "Desenvolvedor Full Stack com experiência em projetos web, atuando principalmente com React, Node.js, TypeScript, GraphQL e PostgreSQL. Contribuo no desenvolvimento da plataforma Alta Aprovação, participando da construção de funcionalidades essenciais no frontend e backend, além de colaborar na integração de novos membros. Também atuei na área de Data Quality na Stringhini Varejo Inteligente, superando metas e garantindo alta qualidade nas entregas."
+  },
+  "experience": {
+    "stringhini": {
+      "title": "Qualidade de Dados na Stringhini",
+      "begin": "Set 2022",
+      "end": "Set 2024",
+      "description": [
+        "Me destaquei ao obter 100% de acertos na homologação semanal em diversas semanas.",
+        "Alcancei 100% ou mais da meta de pontos em mais de 43 ocasiões, contribuindo para que a equipe cumprisse as metas estabelecidas pelo cliente.",
+        "Trabalhei em escopos em estágio inicial, sendo extremamente importante tirar dúvidas constantemente com a gestão para garantir uma excelente assertividade."
+      ]
+    },
+    "tudeDinizInternship": {
+      "title": "Estágio em Desenvolvimento Full Stack na Tude Diniz Tecnologia",
+      "begin": "Set 2024",
+      "end": "Jun 2025",
+      "description": [
+        "Atuei como desenvolvedor principal no projeto Alta Aprovação, liderando cerca de 80% das funcionalidades do frontend com React, Material UI e GraphQL.",
+        "Implementei o frontend da funcionalidade estratégica Edital Verticalizado e colaborei no backend com Node.js, TypeScript, TypeORM, GraphQL e PostgreSQL.",
+        "Estruturei o módulo administrativo do HUB do Alta Aprovação, incluindo gestão de usuários, editais, disciplinas e tópicos, promovendo operações digitais e escaláveis."
+      ]
+    },
+    "tudeDinizFulltime": {
+      "title": "Desenvolvedor Full Stack na Tude Diniz Tecnologia",
+      "begin": "Jun 2025",
+      "end": "Atual",
+      "description": [
+        "Migrei o frontend de Create React App para Vite, reduzindo em aproximadamente 60% o tempo de build e inicialização do ambiente de desenvolvimento.",
+        "Implementei a integração de pagamentos de ponta a ponta com o Stripe, garantindo transações seguras e ampliando as possibilidades de monetização do produto.",
+        "Desenvolvi o módulo de vagas salvas com alertas automáticos por e-mail, utilizando React, Supabase e Node.js."
+      ]
+    }
+  },
+  "projects": {
+    "reactTemplate": {
+      "title": "React Template",
+      "description": [
+        "Estruturei um template pessoal utilizando Vite, React, TypeScript e Material UI, com foco em produtividade e organização.",
+        "O projeto serve como ponto de partida para novas aplicações, seguindo uma arquitetura clara e componentes responsivos."
+      ]
+    },
+    "reactTestingSetup": {
+      "title": "Ambiente de Testes React",
+      "description": [
+        "Configurei um ambiente de testes completo para projetos React com Vitest, React Testing Library e Cypress.",
+        "O setup cobre testes unitários, de integração e E2E, sendo útil como base reutilizável para novos projetos."
+      ]
+    },
+    "nodeGraphqlApi": {
+      "title": "API GraphQL com Node.js",
+      "description": [
+        "Desenvolvi uma API simples com Node.js, TypeScript, TypeORM e GraphQL para treinar operações CRUD com PostgreSQL.",
+        "A estrutura reforça boas práticas como soft delete, validações e relacionamentos entre entidades."
+      ]
+    },
+    "javaSpringTemplate": {
+      "title": "Java Spring Template Backend",
+      "description": [
+        "Criei um esqueleto de backend com Spring Boot, JWT, Spring Security e Flyway, voltado ao aprendizado e uso futuro em projetos reais.",
+        "O projeto inclui documentação com OpenAPI (Springdoc), mapeamentos com MapStruct e organização voltada à manutenção."
+      ]
+    },
+    "solidPrinciples": {
+      "title": "Aplicação dos Princípios SOLID",
+      "description": [
+        "Desenvolvi um repositório didático para estudar e exemplificar os princípios SOLID em Java.",
+        "O projeto apresenta casos corretos e incorretos, sendo útil como material de estudo e revisão."
+      ]
+    },
+    "springBootTests": {
+      "title": "Testes Unitários com Spring Boot",
+      "description": [
+        "Pratiquei testes unitários com JUnit 5 e Mockito em um projeto de backend Java simulado.",
+        "Foquei em cobrir serviços com repositórios mockados, reforçando a confiabilidade e clareza no código."
+      ]
+    }
+  },
+  "titles": {
+    "me": "Mim",
+    "experiences": "Experiências",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "about": "Sobre"
+  },
+  "footer": {
+    "developerBy": "Desenvolvido por",
+    "designBy": "Design por"
+  }
+}
