@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio, a showcase of my technical skills, projects, and career highlights. Developed with the combination of React, TypeScript, Next UI, and Tailwind CSS.
+Welcome to my portfolio, a showcase of my technical skills, projects, and career highlights. Developed with the combination of React, TypeScript and Tailwind CSS.
 
 ---
 
@@ -10,8 +10,6 @@ Welcome to my portfolio, a showcase of my technical skills, projects, and career
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/69a9e67e-21d1-489d-9997-0d4d71edd1b8/deploy-status)](https://app.netlify.com/sites/jonas-dias-portfolio/deploys)
 
 ## 🚀 Features
-
-- **Next UI & Tailwind CSS:** Combines the stylistic flexibility of Tailwind CSS with the rich, ready-to-use components of Next UI for a modern, responsive design.
 
 - **Fully Responsive:** Crafted to provide an optimal viewing experience across a wide range of devices (from mobile phones to desktop monitors).
 
@@ -36,13 +34,13 @@ cd portfolio/portfolio
 2. **Install dependencies**
 
 ```sh
-npm install
+yarn install
 ```
 
 3. **Run the development server**
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 Navigate to [http://localhost:3000](http://localhost:3000) to view the application in your browser. The app will automatically reload if you change any of the source files.
@@ -51,7 +49,6 @@ Navigate to [http://localhost:3000](http://localhost:3000) to view the applicati
 
 - **[React](https://reactjs.org/)** - For building the user interface with component-based architecture.
 - **[TypeScript](https://www.typescriptlang.org/)** - Adds static type definitions to ensure type safety and to enhance the development experience.
-- **[Next UI](https://nextui.org/)** - For using beautiful, modern UI components that are fully responsive and customizable.
 - **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for creating custom designs without having to leave your HTML.
 
 ---
